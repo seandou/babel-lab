@@ -1,4 +1,5 @@
 # babel-lab
+Do some experiments on [babel 6](https://babeljs.io/)
 
 # Requirements
 - Babel 6.x
@@ -8,6 +9,7 @@
 - [Setting up Babel 6](http://babeljs.io/blog/2015/10/31/setting-up-babel-6/)
 - [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6/)
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com/#docs/intro)
+- [babel packages](https://github.com/babel/babel/tree/master/packages)
 
 # Tips
 
