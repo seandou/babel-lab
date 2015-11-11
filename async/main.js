@@ -13,12 +13,13 @@ class Log {
 
 }
 
-async function doPrint() {
+function doPrint() {
   let log = new Log();
   const start = new Date;
-  await log.delayPrint('hello', 200);
-  const ms = new Date - start;
-  console.log(`${ms}ms is taken`);  
+  log.delayPrint('hello', 200).then(function() {
+    const ms = new Date - start;
+    console.log(`${ms}ms is taken`);  
+  });
 }
 
 doPrint();
