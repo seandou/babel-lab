@@ -1,6 +1,6 @@
 'use strict';
 
-require("babel-core/register");
+require('node4-transformer');
 
 require('./arrow-functions/main');
 require('./class/main');
