@@ -6,6 +6,7 @@ Do some experiments on [babel 6](https://babeljs.io/)
 - Node >=4.x
 
 # References
+- [Exploring ES6](http://exploringjs.com/es6/)
 - [ES6 features](http://git.io/es6features)
 - [Setting up Babel 6](http://babeljs.io/blog/2015/10/31/setting-up-babel-6/)
 - [ECMAScript 2015 (ES6) in Node.js](https://nodejs.org/en/docs/es6/)
