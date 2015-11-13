@@ -9,10 +9,16 @@ class User {
   get name() {
     return this._name;
   }
+
+  test() {
+    console.log(User.schema);
+  }
 }
 
+User.schema = {a:10};
+
 let u = new User('tom');
-console.log(u.name);
+u.test();
 
 var prop = "foo";
 var o = {
