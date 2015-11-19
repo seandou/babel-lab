@@ -24,3 +24,12 @@ let hello = () => {
 };
 
 hello();
+
+let saySomething = (preWord) => {
+  return (name) => {
+    console.log(preWord + ' ' + name);
+  }
+}
+
+let sayHello = saySomething('hello');
+sayHello('world');
