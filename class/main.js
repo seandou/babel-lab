@@ -27,3 +27,19 @@ var o = {
 };
 
 console.log(o);
+
+class StaticTest {
+  constructor() {
+  }
+
+  static hello() {
+    return 'hello, static';
+  }
+
+  sayHello() {
+    console.log(StaticTest.hello());
+  }
+}
+
+let st = new StaticTest();
+st.sayHello();

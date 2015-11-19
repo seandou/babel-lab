@@ -19,3 +19,5 @@ function logEach(...things) {
 }
 logEach("a", "b", "c");
 
+let [all, year, month, day] = /^(\d\d\d\d)-(\d\d)-(\d\d)$/.exec('2999-12-31');
+console.log(all, year, month, day);
